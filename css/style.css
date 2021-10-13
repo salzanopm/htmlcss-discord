@@ -10,26 +10,50 @@ body {
     font-family: "Withney", sans-seriff;
 }
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
 img {
     width: 100%;
+    line-height: 70px;
 }
 
+/* titoli */
+.title {
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.text {
+    font-size: 22px;
+    margin-top: 25px;
+}
 /* buttons */
-.btn-small {
+.btn {
     text-decoration: none;
-    padding: 10px 14px;
     border-radius: 40px;
-    font-size: 14px;
     line-height: normal;
+
+}
+.small {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+.big {
+    padding: 20px 28px;
+    font-size: 20px;
+    margin: 15px 15px;
 }
 
 .btn-white {
     color: black;
     background-color: white;
+}
+.btn-black {
+    color: white;
+    background-color: black;
 }
 /* layout generic class */
 .col {
@@ -68,9 +92,6 @@ nav {
 .central-menu {
     width: 80%;
     text-align: center;
-   
-    /* test */
-    height: 80px;
 }
 
 .top-menu {
@@ -101,11 +122,56 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 200px 0;
+    padding: 180px 0;
 }
 
 .jumbotron-content {
     width: 50%;
     margin: auto;
     color: white;
+}
+
+.jumbotron-content h1,
+.jumbotron-content p  {
+    margin-bottom: 60px;
+}
+
+/* advatages */
+section {
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+.col-img {
+    width: 65%;
+    padding: 0 60px;
+}
+
+.col-text {
+    width: 35%;
+    text-align: left;
+
+}
+/* advantages specular */
+.section-specular {
+    margin: 100px;
+}
+.advantages .col-img-specular {
+    width: 65%;
+    padding: 0 60px;
+}
+
+.col-text-specular {
+    width: 35%;
+    text-align: left;
+}
+
+.final-section-content {
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.final-section-content h1,
+.final-section-content p  {
+    margin-bottom: 60px;
 }
