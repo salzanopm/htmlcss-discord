@@ -55,6 +55,18 @@ img {
     color: white;
     background-color: black;
 }
+
+.btn-purple {
+    color: white;
+    background-color: #8ea1e1;
+}
+
+.final-section-buttons {
+    margin-top: 50px;
+
+}
+
+
 /* layout generic class */
 .col {
     float: left;
@@ -166,12 +178,22 @@ section {
 }
 
 .final-section-content {
-    width: 50%;
+    width: 70%;
     margin: auto;
-    color: white;
+    text-align: center;
 }
 
 .final-section-content h1,
 .final-section-content p  {
     margin-bottom: 60px;
+}
+
+.final-photo {
+    width: 100%;
+}
+
+.starred {
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    font-size: 40px;
 }
