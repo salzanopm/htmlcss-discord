@@ -201,4 +201,67 @@ section {
 footer {
     background-color: #23272a ;
     
+    
+}
+ .flag {
+     display: inline-block;
+     width: 3%;
+ }
+
+ .italian-flag {
+    display: inline-block;
+ }
+
+ .col-img-footer {
+    width: 50%;
+    color: white;
+    
+}
+
+.central-menu-footer {
+    width: 50%;
+    text-align: center;
+}
+
+
+.logo-footer,
+.login-footer {
+    width: 20%;
+    /* test */
+    height: 80px;
+}
+
+.col-right {
+    float: right;
+}
+
+.top-menu-footer{
+    text-decoration: none;
+}
+
+.top-menu-footer li {
+    display: inline-block;
+    margin: 0 15px;
+
+
+}
+
+.top-menu-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-footer {
+    width: 17,5%;
+    /* test */
+    height: 50px;
+    background-color: tomato;
+}
+
+.col-footer-big {
+    width: 30%;
+    color: white;
+    background-color: yellow;
+    
+    
 }
