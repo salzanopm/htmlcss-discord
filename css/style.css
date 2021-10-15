@@ -19,6 +19,10 @@ img {
     line-height: 70px;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* titoli */
 .title {
     font-size: 50px;
@@ -205,7 +209,8 @@ footer {
 }
  .flag {
      display: inline-block;
-     width: 3%;
+     width: 8%;
+     vertical-align: middle;
  }
 
  .italian-flag {
@@ -252,16 +257,35 @@ footer {
 }
 
 .col-footer {
-    width: 17,5%;
-    /* test */
-    height: 50px;
-    background-color: tomato;
+    width: 17.5%;
+    margin-top: 20px;
+    
+
+    
+}
+.col-footer li{
+    color: white;
+    margin: 10px 0;
+    
+    
+}
+.col,.col-footer > ul{
+    color:#7289da;
+    
 }
 
+
 .col-footer-big {
-    width: 30%;
+    width: 25%;
     color: white;
-    background-color: yellow;
+    margin-left: 5%;
+    margin-top: 15px;
     
-    
+}
+
+.col-footer-big > h3{
+    color:#7289da;
+    font-size: 30px;
+    margin-bottom: 20px;
+
 }
