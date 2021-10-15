@@ -7,7 +7,7 @@
 
 /* COMMONS */
 body {
-    font-family: "Withney", sans-seriff;
+    font-family: Withney, sans-serif
 }
 .container {
     width: 80%;
@@ -288,4 +288,22 @@ footer {
     font-size: 30px;
     margin-bottom: 20px;
 
+}
+
+.final-footer {
+    margin-top: 50px;
+
+}
+
+.special {
+    font-size: 10px;
+}
+.icons i {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    border-color: #47547a;
 }
